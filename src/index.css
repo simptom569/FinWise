@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'TestSohne';
+    src: url(./font/TestSohne-Medium.otf) format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TestSohne';
+    src: url(./font/TestSohne-Regular.otf) format('opentype');
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
